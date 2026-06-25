@@ -1,0 +1,18 @@
+[MASTER]
+# Ignore Jupyter notebooks — pylint cannot parse .ipynb files correctly
+ignore-patterns=.*\.ipynb
+
+[FORMAT]
+max-line-length=120
+
+[MESSAGES CONTROL]
+# Disable rules that are irrelevant for data science notebooks
+disable=
+    C0103,  # invalid-name (Q-table uses 'Q', short vars like 'r', 'k' are fine)
+    C0114,  # missing-module-docstring
+    C0302,  # too-many-lines
+    C0411,  # wrong-import-order
+    C0104,  # disallowed-name (bar is fine in matplotlib)
+    W0621,  # redefined-outer-name (normal in notebooks)
+    W1203,  # logging-fstring-interpolation (f-strings in logging is fine)
+    W1309   # f-string-without-interpolation

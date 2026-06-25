@@ -1,0 +1,18 @@
+[flake8]
+# Jupyter notebooks are not standard Python files.
+# Linting .ipynb files produces false positives — ignore them.
+exclude =
+    *.ipynb,
+    .venv,
+    venv,
+    __pycache__
+
+# Allow longer lines — common in data science notebooks
+max-line-length = 120
+
+# Ignore rules that conflict with readable data science code:
+# E203 - whitespace before ':' (conflicts with numpy slicing style)
+# E221 - multiple spaces before operator (used for column alignment)
+# E251 - spaces around keyword equals (used for visual alignment)
+# W503 - line break before binary operator
+extend-ignore = E203, E221, E251, W503
