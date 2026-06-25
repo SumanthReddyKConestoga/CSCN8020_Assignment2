@@ -5,7 +5,6 @@
 | **Student Name** | Sumanth Reddy Konannagari |
 | **Student ID** | 9040660 |
 | **Course** | CSCN8020 — Reinforcement Learning |
-| **Institution** | Conestoga College, Waterloo, Ontario |
 | **Repository** | https://github.com/SumanthReddyKConestoga/CSCN8020_Assignment2.git |
 
 ---
@@ -232,10 +231,5 @@ The notebook runs top to bottom without errors. All 7 experiments execute automa
 - **Best combination (α = 0.2, ε = 0.1)** delivers the fastest convergence while maintaining the tightest exploitation of the learned policy — the best result across all 7 experiments.
 
 ---
-
-## Reference
-
-Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction* (2nd ed.). MIT Press.
-Chapter 6.5 — Q-Learning (Off-policy TD Control).
 
 ---
