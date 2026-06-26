@@ -232,5 +232,5 @@ The notebook runs top to bottom without errors. All 7 experiments execute automa
 
 ---
 ## Academic Integrity
-AI tools were used to support development and formatting. All code, explanations, experiment designs, and conclusions represent the student's own understanding of the Q-Learning algorithm and reinforcement learning theory. The student takes full responsibility for the correctness of the implementation and the accuracy of all written explanations.
+- AI tools were used to support development and formatting. All code, explanations, experiment designs, and conclusions represent the student's own understanding of the Q-Learning algorithm and reinforcement learning theory. The student takes full responsibility for the correctness of the implementation and the accuracy of all written explanations.
 ---
