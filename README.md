@@ -231,5 +231,6 @@ The notebook runs top to bottom without errors. All 7 experiments execute automa
 - **Best combination (α = 0.2, ε = 0.1)** delivers the fastest convergence while maintaining the tightest exploitation of the learned policy — the best result across all 7 experiments.
 
 ---
-
+## Academic Integrity
+AI tools were used to support development and formatting. All code, explanations, experiment designs, and conclusions represent the student's own understanding of the Q-Learning algorithm and reinforcement learning theory. The student takes full responsibility for the correctness of the implementation and the accuracy of all written explanations.
 ---
